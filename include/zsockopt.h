@@ -14,16 +14,16 @@
     http://czmq.zeromq.org.
 
     This is free software; you can redistribute it and/or modify it under
-    the terms of the GNU Lesser General Public License as published by the 
-    Free Software Foundation; either version 3 of the License, or (at your 
+    the terms of the GNU Lesser General Public License as published by the
+    Free Software Foundation; either version 3 of the License, or (at your
     option) any later version.
 
     This software is distributed in the hope that it will be useful, but
     WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABIL-
-    ITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Lesser General 
+    ITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Lesser General
     Public License for more details.
 
-    You should have received a copy of the GNU Lesser General Public License 
+    You should have received a copy of the GNU Lesser General Public License
     along with this program. If not, see <http://www.gnu.org/licenses/>.
     =========================================================================
 */
@@ -83,6 +83,7 @@ CZMQ_EXPORT void zsocket_set_router_raw (void *zocket, int router_raw);
 CZMQ_EXPORT void zsocket_set_ipv4only (void *zocket, int ipv4only);
 CZMQ_EXPORT void zsocket_set_delay_attach_on_connect (void *zocket, int delay_attach_on_connect);
 CZMQ_EXPORT void zsocket_set_router_mandatory (void *zocket, int router_mandatory);
+CZMQ_EXPORT void zsocket_set_router_handover (void *zocket, int router_handover);
 CZMQ_EXPORT void zsocket_set_req_relaxed (void *zocket, int req_relaxed);
 CZMQ_EXPORT void zsocket_set_req_correlate (void *zocket, int req_correlate);
 CZMQ_EXPORT void zsocket_set_conflate (void *zocket, int conflate);
